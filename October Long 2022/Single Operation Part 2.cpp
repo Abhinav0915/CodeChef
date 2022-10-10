@@ -7,7 +7,7 @@ void solve()
    string str;
    cin >> s >> str;
    for(int i=1;i<s;++i) 
-      if(str[i]=='0') 
+      if(str[i]=='1') 
       {
          cout << i << endl;
          return;
